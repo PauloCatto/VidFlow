@@ -1,39 +1,36 @@
 # VidFlow
 
-O projeto VidFlow é uma aplicação web que permite aos usuários visualizar e explorar vídeos de várias categorias. A aplicação busca e exibe vídeos de uma fonte de dados externa por meio de uma API JSON e oferece recursos de pesquisa e filtragem com base em categorias. É uma plataforma versátil para assistir, explorar e aprender por meio de conteúdo em vídeo.
+VidFlow é uma aplicação web simples para visualização e exploração de vídeos organizados por categorias. A plataforma apresenta um layout intuitivo e responsivo com recursos de pesquisa e filtragem em tempo real, carregando os dados diretamente de um arquivo JSON local.
 
-# Recursos Principais
-<br>
-Visualização de vídeos de várias categorias.
-<br>
-Pesquisa de vídeos por título.
-<br>
-Filtragem de vídeos por categoria.
-<br>
-Integração com API JSON para buscar e exibir dados de vídeos.
-<br>
-Interface de usuário intuitiva e amigável.
-<br>
-
-# Tecnologias Utilizadas
-<br>
-HTML, CSS, JavaScript
-<br>
-Fetch API para busca de dados de vídeos
-<br>
-Estruturação de interface com HTML e estilização com CSS
-<br>
-JavaScript para lógica de busca, filtragem e exibição de vídeos
+🔗 **Link para o projeto online:** [https://vid-flow-gold.vercel.app/](https://vid-flow-gold.vercel.app/)
 
 <br>
-<br>
-<br>
-<br>
+<img width="1254" height="721" alt="image" src="https://github.com/user-attachments/assets/86fb8183-506d-49b2-a0d2-f1d0e71caee0" />
 
 
+---
 
+## Funcionalidades Principais
 
+- 🎥 Exibição de vídeos incorporados via iframe, organizados por categorias.
+- 🔍 Busca dinâmica de vídeos pelo título na barra de pesquisa.
+- 🗂️ Filtro por categoria clicando nos botões de categoria.
+- ⚡ Carregamento rápido usando dados locais em JSON, sem necessidade de backend.
 
+---
 
+## Tecnologias Utilizadas
 
-![Captura de Tela (10)](https://github.com/PauloCatto/VidFlow/assets/108766424/34ea4e08-a08f-47d9-aba9-46895da5e9fe)
+- HTML5 para a estrutura da página.
+- CSS3 para estilização e layout responsivo.
+- JavaScript para lógica de busca, filtro e renderização dos vídeos.
+- Fetch API para carregar o arquivo JSON local (`/api/videos.json`).
+
+---
+
+## Como rodar localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/PauloCatto/VidFlow.git
+   cd VidFlow
